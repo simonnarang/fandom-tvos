@@ -1,0 +1,512 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1308488F1CB050B300C2CE6C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1308488E1CB050B300C2CE6C /* AppDelegate.swift */; };
+		130848911CB050B300C2CE6C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 130848901CB050B300C2CE6C /* ViewController.swift */; };
+		130848941CB050B300C2CE6C /* FandomTV.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 130848921CB050B300C2CE6C /* FandomTV.xcdatamodeld */; };
+		130848971CB050B300C2CE6C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 130848951CB050B300C2CE6C /* Main.storyboard */; };
+		130848991CB050B300C2CE6C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 130848981CB050B300C2CE6C /* Assets.xcassets */; };
+		130848A41CB050B300C2CE6C /* FandomTVTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 130848A31CB050B300C2CE6C /* FandomTVTests.swift */; };
+		130848AF1CB050B300C2CE6C /* FandomTVUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 130848AE1CB050B300C2CE6C /* FandomTVUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		130848A01CB050B300C2CE6C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 130848831CB050B300C2CE6C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1308488A1CB050B300C2CE6C;
+			remoteInfo = FandomTV;
+		};
+		130848AB1CB050B300C2CE6C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 130848831CB050B300C2CE6C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1308488A1CB050B300C2CE6C;
+			remoteInfo = FandomTV;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1308488B1CB050B300C2CE6C /* FandomTV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FandomTV.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1308488E1CB050B300C2CE6C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		130848901CB050B300C2CE6C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		130848931CB050B300C2CE6C /* FandomTV.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FandomTV.xcdatamodel; sourceTree = "<group>"; };
+		130848961CB050B300C2CE6C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		130848981CB050B300C2CE6C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1308489A1CB050B300C2CE6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1308489F1CB050B300C2CE6C /* FandomTVTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FandomTVTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		130848A31CB050B300C2CE6C /* FandomTVTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FandomTVTests.swift; sourceTree = "<group>"; };
+		130848A51CB050B300C2CE6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		130848AA1CB050B300C2CE6C /* FandomTVUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FandomTVUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		130848AE1CB050B300C2CE6C /* FandomTVUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FandomTVUITests.swift; sourceTree = "<group>"; };
+		130848B01CB050B300C2CE6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		130848881CB050B300C2CE6C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1308489C1CB050B300C2CE6C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		130848A71CB050B300C2CE6C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		130848821CB050B300C2CE6C = {
+			isa = PBXGroup;
+			children = (
+				1308488D1CB050B300C2CE6C /* FandomTV */,
+				130848A21CB050B300C2CE6C /* FandomTVTests */,
+				130848AD1CB050B300C2CE6C /* FandomTVUITests */,
+				1308488C1CB050B300C2CE6C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1308488C1CB050B300C2CE6C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1308488B1CB050B300C2CE6C /* FandomTV.app */,
+				1308489F1CB050B300C2CE6C /* FandomTVTests.xctest */,
+				130848AA1CB050B300C2CE6C /* FandomTVUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1308488D1CB050B300C2CE6C /* FandomTV */ = {
+			isa = PBXGroup;
+			children = (
+				1308488E1CB050B300C2CE6C /* AppDelegate.swift */,
+				130848901CB050B300C2CE6C /* ViewController.swift */,
+				130848951CB050B300C2CE6C /* Main.storyboard */,
+				130848981CB050B300C2CE6C /* Assets.xcassets */,
+				1308489A1CB050B300C2CE6C /* Info.plist */,
+				130848921CB050B300C2CE6C /* FandomTV.xcdatamodeld */,
+			);
+			path = FandomTV;
+			sourceTree = "<group>";
+		};
+		130848A21CB050B300C2CE6C /* FandomTVTests */ = {
+			isa = PBXGroup;
+			children = (
+				130848A31CB050B300C2CE6C /* FandomTVTests.swift */,
+				130848A51CB050B300C2CE6C /* Info.plist */,
+			);
+			path = FandomTVTests;
+			sourceTree = "<group>";
+		};
+		130848AD1CB050B300C2CE6C /* FandomTVUITests */ = {
+			isa = PBXGroup;
+			children = (
+				130848AE1CB050B300C2CE6C /* FandomTVUITests.swift */,
+				130848B01CB050B300C2CE6C /* Info.plist */,
+			);
+			path = FandomTVUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1308488A1CB050B300C2CE6C /* FandomTV */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 130848B31CB050B300C2CE6C /* Build configuration list for PBXNativeTarget "FandomTV" */;
+			buildPhases = (
+				130848871CB050B300C2CE6C /* Sources */,
+				130848881CB050B300C2CE6C /* Frameworks */,
+				130848891CB050B300C2CE6C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FandomTV;
+			productName = FandomTV;
+			productReference = 1308488B1CB050B300C2CE6C /* FandomTV.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1308489E1CB050B300C2CE6C /* FandomTVTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 130848B61CB050B300C2CE6C /* Build configuration list for PBXNativeTarget "FandomTVTests" */;
+			buildPhases = (
+				1308489B1CB050B300C2CE6C /* Sources */,
+				1308489C1CB050B300C2CE6C /* Frameworks */,
+				1308489D1CB050B300C2CE6C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				130848A11CB050B300C2CE6C /* PBXTargetDependency */,
+			);
+			name = FandomTVTests;
+			productName = FandomTVTests;
+			productReference = 1308489F1CB050B300C2CE6C /* FandomTVTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		130848A91CB050B300C2CE6C /* FandomTVUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 130848B91CB050B300C2CE6C /* Build configuration list for PBXNativeTarget "FandomTVUITests" */;
+			buildPhases = (
+				130848A61CB050B300C2CE6C /* Sources */,
+				130848A71CB050B300C2CE6C /* Frameworks */,
+				130848A81CB050B300C2CE6C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				130848AC1CB050B300C2CE6C /* PBXTargetDependency */,
+			);
+			name = FandomTVUITests;
+			productName = FandomTVUITests;
+			productReference = 130848AA1CB050B300C2CE6C /* FandomTVUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		130848831CB050B300C2CE6C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Simon Narang";
+				TargetAttributes = {
+					1308488A1CB050B300C2CE6C = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					1308489E1CB050B300C2CE6C = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 1308488A1CB050B300C2CE6C;
+					};
+					130848A91CB050B300C2CE6C = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 1308488A1CB050B300C2CE6C;
+					};
+				};
+			};
+			buildConfigurationList = 130848861CB050B300C2CE6C /* Build configuration list for PBXProject "FandomTV" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 130848821CB050B300C2CE6C;
+			productRefGroup = 1308488C1CB050B300C2CE6C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1308488A1CB050B300C2CE6C /* FandomTV */,
+				1308489E1CB050B300C2CE6C /* FandomTVTests */,
+				130848A91CB050B300C2CE6C /* FandomTVUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		130848891CB050B300C2CE6C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				130848991CB050B300C2CE6C /* Assets.xcassets in Resources */,
+				130848971CB050B300C2CE6C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1308489D1CB050B300C2CE6C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		130848A81CB050B300C2CE6C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		130848871CB050B300C2CE6C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				130848911CB050B300C2CE6C /* ViewController.swift in Sources */,
+				130848941CB050B300C2CE6C /* FandomTV.xcdatamodeld in Sources */,
+				1308488F1CB050B300C2CE6C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1308489B1CB050B300C2CE6C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				130848A41CB050B300C2CE6C /* FandomTVTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		130848A61CB050B300C2CE6C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				130848AF1CB050B300C2CE6C /* FandomTVUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		130848A11CB050B300C2CE6C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1308488A1CB050B300C2CE6C /* FandomTV */;
+			targetProxy = 130848A01CB050B300C2CE6C /* PBXContainerItemProxy */;
+		};
+		130848AC1CB050B300C2CE6C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1308488A1CB050B300C2CE6C /* FandomTV */;
+			targetProxy = 130848AB1CB050B300C2CE6C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		130848951CB050B300C2CE6C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				130848961CB050B300C2CE6C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		130848B11CB050B300C2CE6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = appletvos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Debug;
+		};
+		130848B21CB050B300C2CE6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.1;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		130848B41CB050B300C2CE6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = FandomTV/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.FandomTV;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		130848B51CB050B300C2CE6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = FandomTV/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.FandomTV;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		130848B71CB050B300C2CE6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FandomTVTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.FandomTVTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FandomTV.app/FandomTV";
+			};
+			name = Debug;
+		};
+		130848B81CB050B300C2CE6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FandomTVTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.FandomTVTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FandomTV.app/FandomTV";
+			};
+			name = Release;
+		};
+		130848BA1CB050B300C2CE6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FandomTVUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.FandomTVUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FandomTV;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		130848BB1CB050B300C2CE6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FandomTVUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.FandomTVUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FandomTV;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		130848861CB050B300C2CE6C /* Build configuration list for PBXProject "FandomTV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				130848B11CB050B300C2CE6C /* Debug */,
+				130848B21CB050B300C2CE6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		130848B31CB050B300C2CE6C /* Build configuration list for PBXNativeTarget "FandomTV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				130848B41CB050B300C2CE6C /* Debug */,
+				130848B51CB050B300C2CE6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		130848B61CB050B300C2CE6C /* Build configuration list for PBXNativeTarget "FandomTVTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				130848B71CB050B300C2CE6C /* Debug */,
+				130848B81CB050B300C2CE6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		130848B91CB050B300C2CE6C /* Build configuration list for PBXNativeTarget "FandomTVUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				130848BA1CB050B300C2CE6C /* Debug */,
+				130848BB1CB050B300C2CE6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		130848921CB050B300C2CE6C /* FandomTV.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				130848931CB050B300C2CE6C /* FandomTV.xcdatamodel */,
+			);
+			currentVersion = 130848931CB050B300C2CE6C /* FandomTV.xcdatamodel */;
+			path = FandomTV.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 130848831CB050B300C2CE6C /* Project object */;
+}
