@@ -14,6 +14,7 @@
 		130848991CB050B300C2CE6C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 130848981CB050B300C2CE6C /* Assets.xcassets */; };
 		130848A41CB050B300C2CE6C /* FandomTVTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 130848A31CB050B300C2CE6C /* FandomTVTests.swift */; };
 		130848AF1CB050B300C2CE6C /* FandomTVUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 130848AE1CB050B300C2CE6C /* FandomTVUITests.swift */; };
+		13317F431CBB07150099FC97 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13317F421CBB07150099FC97 /* TableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		130848AA1CB050B300C2CE6C /* FandomTVUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FandomTVUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		130848AE1CB050B300C2CE6C /* FandomTVUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FandomTVUITests.swift; sourceTree = "<group>"; };
 		130848B01CB050B300C2CE6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		13317F421CBB07150099FC97 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 			isa = PBXGroup;
 			children = (
 				1308488E1CB050B300C2CE6C /* AppDelegate.swift */,
+				13317F421CBB07150099FC97 /* TableViewController.swift */,
 				130848901CB050B300C2CE6C /* ViewController.swift */,
 				130848951CB050B300C2CE6C /* Main.storyboard */,
 				130848981CB050B300C2CE6C /* Assets.xcassets */,
@@ -193,6 +196,7 @@
 				TargetAttributes = {
 					1308488A1CB050B300C2CE6C = {
 						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = RNPQ279435;
 					};
 					1308489E1CB050B300C2CE6C = {
 						CreatedOnToolsVersion = 7.2.1;
@@ -258,6 +262,7 @@
 				130848911CB050B300C2CE6C /* ViewController.swift in Sources */,
 				130848941CB050B300C2CE6C /* FandomTV.xcdatamodeld in Sources */,
 				1308488F1CB050B300C2CE6C /* AppDelegate.swift in Sources */,
+				13317F431CBB07150099FC97 /* TableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -390,10 +395,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "iPhone Developer";
 				INFOPLIST_FILE = FandomTV/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.FandomTV;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -402,10 +410,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "iPhone Developer";
 				INFOPLIST_FILE = FandomTV/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.FandomTV;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -476,6 +487,7 @@
 				130848B51CB050B300C2CE6C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		130848B61CB050B300C2CE6C /* Build configuration list for PBXNativeTarget "FandomTVTests" */ = {
 			isa = XCConfigurationList;
@@ -484,6 +496,7 @@
 				130848B81CB050B300C2CE6C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		130848B91CB050B300C2CE6C /* Build configuration list for PBXNativeTarget "FandomTVUITests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +505,7 @@
 				130848BB1CB050B300C2CE6C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
